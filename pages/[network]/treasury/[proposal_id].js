@@ -1,6 +1,6 @@
 
-import {getSingleTreasury} from "../../../lib/subscan";
-import SingleTreasuryProposal from "../../../components/Treasury/SingleTreasuryProposal";
+import {getSingleTreasury} from "../../../src/lib/subscan";
+import SingleTreasuryProposal from "../../../src/components/Treasury/SingleTreasuryProposal";
 
 
 export default function TreasuryProposal({treasuryProposal}) {

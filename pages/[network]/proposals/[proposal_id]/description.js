@@ -3,7 +3,7 @@ import { useWeb3React } from "@web3-react/core";
 import { ethers, utils } from "ethers";
 import { useRouter } from "next/router"
 import { useState } from "react"
-import { getSingleProposal } from "../../../../lib/subscan";
+import { getSingleProposal } from "../../../../src/lib/subscan";
 
 
 export default function Home({proposal}){
