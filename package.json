@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 5001",
     "lint": "next lint",
-    "reset-db": "prisma migrate reset"
+    "reset-db": "prisma migrate reset",
+    "build-docker":  "docker build -t demooncracy-docker .",
+    "start-docker": "docker run -p 5001:5001 -d demooncracy-docker"
   },
   "dependencies": {
     "@emotion/cache": "^11.10.3",
