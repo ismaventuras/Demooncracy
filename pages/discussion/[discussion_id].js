@@ -10,7 +10,7 @@ export async function getServerSideProps(context){
     const getSingleDiscussion =  async (discussion_id) => {
         try{
             let data = (await (await fetch(
-                'http:/localhost:3000/api/singleDiscussion?' + new URLSearchParams({discussion_id}) 
+                'https://demooncracy.vercel.app/api/singleDiscussion?' + new URLSearchParams({discussion_id}) 
             )).json())
             return data
         }catch(error){
