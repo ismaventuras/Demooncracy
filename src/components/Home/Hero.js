@@ -14,7 +14,7 @@ export function Hero() {
                 Demooncracy
             </Typography>
             <Typography variant="subtitle1" color="text.secondary" component={"p"} align={"justify"}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ante nulla, malesuada a pretium sit amet, suscipit ut augue. Nunc aliquet velit non magna feugiat dignissim. Mauris pharetra id lacus blandit tincidunt. Mauris eu lacinia massa, non luctus ante. Quisque scelerisque blandit nisi, vel iaculis neque tincidunt eu. Aenean blandit, diam vitae pellentesque egestas, mauris metus pretium tellus, a auctor erat odio consectetur odio. Suspendisse mollis odio vel lorem viverra, nec tempus est elementum. Vestibulum malesuada malesuada vestibulum. Donec quis sapien eu magna aliquet dictum eget quis tortor.
+                Demooncracy is an app built for the  Connected Contracts Hackathon (https://moonbeam.devpost.com/) with the objective to improve the Moonbeam/Moonriver/Moonbase onchain governance. You can check proposals and referenda and vote for them. You can also create discussions and discuss with other people using your wallet.
             </Typography>
         </Container>
     )
